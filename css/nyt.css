@@ -1,0 +1,138 @@
+/* set body styling */
+body {
+    background-color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* set width and margin of container div */
+div.container-fluid{
+    max-width: 1080px;
+    margin: auto;
+}
+
+/* set font family of header */
+header {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* set input row styling */
+div.input-row{
+    padding: 10px 0 16px;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #000;
+    margin: auto;
+}
+
+/* section select input styling */
+#section {
+    border: none;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+    padding: 8px 12px;
+    font-size: 11px;
+    line-height: 11px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+/* set refresh button styling */
+#refresh {
+    color: #fff;
+    background-color: rgb(86, 123, 149);
+    border: 1px solid rgb(50, 104, 145);
+    border-radius: 3px;
+    padding: 8px 12px;
+    font-size: 11px;
+    line-height: 11px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+/* set main styling */
+main {
+    border-top: 1px solid #000;
+    margin-top: 2px;
+}
+
+/* added padding to top stories section */
+#stories {
+    padding-top: 1em;
+}
+
+/* set card styling */
+.card {
+    border: 1px solid #121212;
+    border-bottom: 1px solid #DFDFDF;
+    border-width: 1px 0 1px 0;
+    padding: 16px 0 16px;
+    border-radius: 0;
+}
+
+/* set card title styling */
+.card-title {
+    font-weight: 700;
+    color: #121212;
+    font-size: 1.375rem;
+    line-height: 1.15em;
+    margin: 0 0 2px;
+}
+
+/* set card subtitle styling */
+.card-subtitle {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #121212;
+}
+
+/* set card paragraph styling */
+#cardP{
+    color: #5A5A5A;
+    margin-top: 0.5em;
+    margin-bottom: 0;
+    font-size: 0.875rem;
+    letter-spacing: 0.1px;
+    line-height: 1.1875rem;
+}
+
+/* set published date section styling */
+#published-date {
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 0.625rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin: 0;
+    color: #727272;
+    margin-top: 0.25rem;
+}
+
+/* center footer text */
+#footer {
+    text-align: center;
+}
+
+/* add footer margin */
+footer {
+    margin-top: 10em;
+}
+
+/* set link styling */
+a:link, a:visited {
+    text-decoration: none;
+    color: #121212;
+}
+
+a:hover, a:active {
+    color: #757575;
+}
+
+/* set refesh button styling */
+#refresh:hover, #hover:focus, #refresh:active {
+    background-color: rgb(50, 104, 145);
+}
+
+/* set section select input styling */
+#section:hover, #section:focus {
+    background-color: #f8f8f8;
+}
