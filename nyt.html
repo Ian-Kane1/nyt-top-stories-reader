@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NYT Top Stories Reader</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/nyt.css">
+    <!-- bootstrap js -->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- custom js -->
+    <script defer src="js/nyt.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header>
+            <div class="row my-5">
+                <div class="col-12">
+                    <h1><strong><em>The New York Times</em></strong> Top Stories Reader</h1>
+                </div>
+            </div>
+            <!-- top story selection input -->
+            <div class="row input-row">
+                <div class="col-12">
+                    <label for="section">
+                        <h3>Current Section:</h3>
+                    </label>
+                </div>
+                <div class="col-6">
+                    <select class="form-select" name="section" id="section">
+                        <option selected="selected" value="home">Home Page</option>
+                        <option value="arts">Arts</option>
+                        <option value="business">Business</option>
+                        <option value="dining">Dining</option>
+                        <option value="fashion">Fashion</option>
+                        <option value="health">Health</option>
+                        <option value="magazine">Magazine</option>
+                        <option value="us">US</option>
+                        <option value="opinion">Opinion</option>
+                        <option value="politics">Politics</option>
+                        <option value="realestate">Real Estate</option>
+                        <option value="science">Science</option>
+                        <option value="sports">Sports</option>
+                        <option value="technology">Technology</option>
+                        <option value="world">World</option>
+                    </select>
+                </div>
+                <!-- refresh button -->
+                <div class="col-6">
+                    <button id="refresh">Refresh Section</button>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="row mt-5">
+                <div class="col">
+                    <h2>Top Stories</h2>
+                </div>
+            </div>
+
+            <!-- div used to display NYT api data -->
+            <div class="row mb-5 gy-4" id="stories">
+            </div>
+        </main>
+        <footer>
+            <div class="row" id="footer">
+                <div class="col">
+                    <p>&copy; 2022 by Ian Kane</p>
+                </div>
+            </div>
+    </div>
+    </footer>
+</body>
+
+</html>
